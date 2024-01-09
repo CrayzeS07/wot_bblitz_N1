@@ -30,6 +30,8 @@ body {
     font-family: 'Fraunces', serif;
     font-weight: 700;
     font-size: 30px;
+-webkit-filter: drop-shadow(5px 5px 5px #222222);
+    filter: drop-shadow(5px 5px 5px #222222);
 }
 
 .logo_name {
@@ -47,6 +49,8 @@ body {
     display: flex;
     column-gap: 40px;
     padding: 20px 20px;
+    -webkit-filter: drop-shadow(5px 5px 5px #222222);
+        filter: drop-shadow(5px 5px 5px #222222);
 }
 
 .li a {
@@ -55,7 +59,9 @@ body {
     font-weight: 400;
     font-size: 20px;
     transition: 0.3s;
+
 }
+
 
 li a:hover {
     text-shadow: 3px 3px 20px #FFFFFF,
@@ -158,12 +164,22 @@ li a:hover {
 .blitz_img {
     width: 450px;
 }
-
-.block__img_23 {
+.blitz_24{
+    padding-top: 50px;
     display: flex;
     justify-content: center;
-    padding-top: 20px;
 }
+.block__img_23 {
+        width: 550px;
+        height: 400px;
+        background-image: url(./images/12.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -webkit-filter: drop-shadow(5px 5px 5px #222222);
+            filter: drop-shadow(5px 5px 5px #222222);
+        }
+                
 
 @media(max-width:990px) {
     .ul {
@@ -231,8 +247,8 @@ li a:hover {
     }
 
     .button_2 {
-        width: 100px;
-        height: 35px;
+        width: 120px;
+        height: 40px;
         font-size: 11px;
     }
 }
@@ -246,6 +262,7 @@ li a:hover {
     .button_2 {
         width: 100px;
         height: 35px;
+        font-size: 9px;
         border-radius: 20px;
     }
 }

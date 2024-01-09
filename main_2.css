@@ -9,10 +9,10 @@
     height: 100vh;
     width: 100%;
     display: flex;
-    background: #001300;
+    background: #000413;
     flex-wrap: wrap;
     overflow: hidden;
-    animation: changingCOlor 3s linear infinite;
+    animation: changingCOlor 2.5s linear infinite;
 }
 
 @keyframes changingCOlor {
